@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de inputs</title>
+</head>
+<body>
+    <form action="./server.php" method="post" enctype="multipart/form-data">
+
+        <!-- Input simple -->
+        <!-- <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"> -->
+
+        <!-- Arreglos -->
+        <!-- <label for="personas">Personas:</label>
+        <input type="text" name="personas[]">
+        <input type="text" name="personas[]">
+        <input type="text" name="personas[]"> -->
+
+        <!-- Arreglos Asociativos -->
+        <!-- <label for="persona">Persona:</label>
+        <input type="text"  name="persona[nombre]" />
+        <input type="email" name="persona[email]" />
+        <input type="tel"   name="persona[telefono]" /> -->
+
+        <!-- CheckBox -->
+        <!-- <input type="checkbox" name="list1" />
+        <input type="checkbox" name="list2" value="Estoy presionado"/>
+        <input type="checkbox" name="list3" /> -->
+
+        <!-- Radios -->
+        <!-- <label for="guatemala"> Guatemala </label>
+        <input type="radio" name="pais" value="Guatemala" id="guatemala" />
+        <label for="honduras"> Honduras </label>
+        <input type="radio" name="pais" value="Honduras" id="honduras"/>
+        <label for="salvador"> El salvador </label>
+        <input type="radio" name="pais" value="El salvador" id="salvador"/> -->
+
+        <!-- Multiples archivos -->
+        <label for="galeria"> Carga tus imagenes </label>
+        <input type="file" multiple name="galeria[]" id="galeria"/> -->
+
+        <button type="submit"> Mandar Formulario </button>
+
+    </form>
+</body>
+</html>
